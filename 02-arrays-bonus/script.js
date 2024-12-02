@@ -30,3 +30,5 @@ for (i = 0; i < teachers.length; i++) {
 const longNames = temp;
 
 // 3. Rimuovi 'Ed' dall'array teachers
+teachers.splice(1, 1)
+console.log(teachers)
