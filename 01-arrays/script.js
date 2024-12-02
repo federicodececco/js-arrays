@@ -47,4 +47,9 @@ const teachersString = teachers.toString();
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+let empty;
+if (teachers.length != 0) {
+  empty = "false"
+}
+else empty = "true"
+const isTeachersEmpty = empty;
